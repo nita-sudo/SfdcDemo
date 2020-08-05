@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83892" started-at="2020-08-04T18:29:30Z" finished-at="2020-08-04T18:30:54Z">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="TestRunner.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@25bbe1b6]" name="scenario" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Default test" duration-ms="83892" started-at="2020-08-04T18:29:30Z" finished-at="2020-08-04T18:30:54Z">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@25bbe1b6]" name="setUpClass" is-config="true" duration-ms="175" started-at="2020-08-04T18:29:30Z" finished-at="2020-08-04T18:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@25bbe1b6]" name="scenario" duration-ms="83578" started-at="2020-08-04T18:29:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-04T18:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new case from service console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sfdc Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@25bbe1b6]" name="scenario" duration-ms="51392" started-at="2020-08-04T18:29:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-04T18:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to salesforce application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sfdc Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@25bbe1b6]" name="tearDownClass" is-config="true" duration-ms="43" started-at="2020-08-04T18:30:54Z" finished-at="2020-08-04T18:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
